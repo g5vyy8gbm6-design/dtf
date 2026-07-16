@@ -1,0 +1,91 @@
+*{
+    margin: 0 ;
+    padding:0;
+}
+
+body{
+    background-color: #17253d;
+    color: white;
+}
+
+.contenedor{
+    width:90%;
+    max-width:900px;
+
+    margin: 40px auto;
+
+}
+
+.perfil{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.perfil h1{
+    font-size: 3em; /*1em equivale a 16px por lo tanto 3em son 48px*/
+
+    color: #34d17b;
+
+    padding-top: 40px;
+    font-family: "monserrat", sans-serif;
+
+
+}
+
+.foto{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    border-radius: 50%;
+    background:#34d17b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5em;
+    color: #9409df;
+    box-shadow: 0 0 15px #34d17b;
+    
+}
+
+
+.cargo{
+    letter-spacing: 4px;
+    color: #34d17b;
+    font-size: 24px;
+    font-family: "monserrat", sans-serif;
+}
+
+.informacion{
+    border: 1px solid #2b8a5a;
+    background: #172636;
+    border-radius: 20px;
+    padding: 35px;
+    margin-bottom: 35px;
+        font-family: "monserrat", sans-serif;
+
+}
+
+.informacion h2{
+    color: #37b46b;
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+
+.fila{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+border-bottom: 1px solid #2c3f52;
+
+}
+
+.fila span{
+    width: 220px;
+    color: #6e7471;
+}
+
+.fila strong{
+    flex: 1
+}
