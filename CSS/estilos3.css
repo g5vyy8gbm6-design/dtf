@@ -1,0 +1,16 @@
+*{
+    MARGIN: 0;
+    PADDING:0;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 100px 50% 100px;
+    gap: 10px;
+}
+
+.caja{
+    border: 1px solid black;
+    height: 100px;
+
+}
