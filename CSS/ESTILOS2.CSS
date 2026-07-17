@@ -8,6 +8,76 @@ body{
     color: white;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0a0252;
+    margin-bottom: 2px solid
+    #1a3245;
+        font-family: "monserrat", sans-serif;
+
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu> ul{
+    display: flex;
+    list-style: none;}
+
+    .menu> ul> li{
+        position: relative;
+    }
+
+    .menu> ul> li> a{
+        display: block;
+        padding: 10px 20px;
+        color: rgb(91, 110, 107);
+        text-decoration: none;
+
+    }
+
+    .menu> ul> li:hover> a{
+        color: #34d17b;
+    }
+
+    .submenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0a0252;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    .menu> ul> li:hover .submenu{
+        display: block;
+    }
+
+    .submenu> li{
+        width: 100%;
+    }
+    .submenu li > a{
+        display: block;
+        padding: 15px 20px;
+        color: rgb(213, 231, 228);
+        text-decoration: none;
+        transition: 2s;
+        background-color: #1a3245;
+    }
+
+    .submenu> li:hover >a{
+        background-color: #000000;
+    }
+    
+
 .contenedor{
     width:90%;
     max-width:900px;
